@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/11e22579d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href ="#header">Home</a></li>
+                    <li><a href ="#about">About</a></li>
+                    <li><a href ="#aoi">Areas Of Interest</a></li>
+                    <li><a href ="#portfolio">Projects</a></li>
+                    <li><a href ="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Development Enthusiast</p>
+                <h1>Hi, I'm <span>Himaja Sree</span>. <br>Welcome to my Portfolio.</h1>
+            </div>
+        </div>
+    </div>
+<!--------about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1><br>
+                <p class="me">I am Challagiri Himaja Sree. I am currently pursuing my Bachelors in Computer Science Engineering at SRM University AP. 
+                    As I'm interested in web development, I have a passion for creating visually appealing, functional, and secure websites and web applications with my expertise in HTML, CSS, JavaScript and database technologies.
+                    I strive to maintain accuracy and consistency in task completion, individual performance and team goal achievement, using
+                    acute attention to detail. Additionally, I offer communication, management and scheduling flexibility.</p><br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul style="list-style-type: circle">
+                        <li><span>Programming Languages</span><br>C, C++, Python, HTML, CSS</li>
+                        <li><span>Developer Tools</span><br>Figma, SparkAR</li>
+                        <li><span>Soft-Skills</span><br>Team management skills, Effective Communication skills, Assertive Presentation skills</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Apr 2023 - May 2023</span><br>Web Development Internship at Oasis Infobyte</li>
+                        <li><span>June 2022 - August 2022</span><br>Virtual internship at Globalshala in collaboration with Illinois Tech Chicago in the field of CyberSecurity. </li>
+                        <li><span>July 2022 - September 2022</span><br>Salesforce Developer Virtual Internship at SmartInternz. </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - Present</span><br>Bachelor of Technology in Computer Science Engineering at SRM University AP</li>
+                        <li><span>2018 - 2020</span><br>Intermediate Education at Sri Chaitanya Junior College</li>
+                        <li><span>2017 - 2018</span><br>Seconary Education at Nalanda Vidyaniketan</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-----Areas of Interest-->
+<div id="aoi">
+    <div class="container">
+        <h1 class="sub-title">Areas of Interest</h1>
+        <div class="aoi-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Development</h2>
+                <p>My interest in Software development allows me to craft solutions that tackle real-world challenges. I thrive on the process of transforming ideas into functional and user-centric applications, continuously seeking to learn and implement the latest best practices and technologies.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Front-End Development</h2>
+                <p>My passion for Front-end development and Full Stack Development allows me to play around with my creativity. I love turning designs into interactive websites that people can enjoy and navigate effortlessly. It's my way of blending art with technology, and I'm always excited to learn new techniques and trends to make user experiences even better.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <h2>Cloud Computing</h2>
+                <p>Cloud computing has ignited my curiosity and drive. It's amazing how it reshapes technology, allowing us to build, deploy, and innovate on a global scale. Embracing cloud solutions, I'm enthusiastic about optimizing processes and developing scalable applications that harness the full potential of this transformative technology.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- my projects  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Environmental Impacts of E-Vehicles App Prototype</h3>
+                    <p>Developed an app prototype that displays a reference vehicle's carbon footprint, and greenhouse emissions.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Spotify Clone</h3>
+                    <p>Developed an Spotify app clone using HTMl, CSS, JavaScript and ReacJS</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>E-Commerce Platform Clone</h3>
+                    <p>Developed an E-Commerece Platform Clone using HTML, CSS and JS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> himajasree44@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 6309743826</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/challagiri-himaja-sree/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/himaja-sree"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/himaja_sree_26/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/My_CV.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Enter your Name" required>
+                    <input type="email" name="Email" placeholder="Enter your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Type your message..."></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Himaja Sree</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzlDo-wghTJkNaqEf66RkmG7kKsPs1YIKKwgyRsKG5ZaD9jNLJbb0iKrcquAGAPyGGy/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message Sent Successfully !!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
